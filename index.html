@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" 
+    integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="assets/js/script.js"></script>
+    <title>Antar Martin | Portfolio</title>
+ <style>
+     header{
+         background: url(/images/modrian2.JPG);
+         background-size: cover;
+         background-position: center;
+         min-height: 950px;
+     }
+
+     .tabs .indicator{
+         background-color: #1a237e;
+     }
+     .tabs .tab a:focus, .tabs .tab a:focus.active{
+         background: transparent;
+     }
+     @media screen and (max-width: 670px){
+         header{
+             min-height: 500px;
+         }
+        }
+         .section{
+         padding-top: 4vw;
+         padding-bottom: 4vw;   
+     }
+ </style>
+</head>
+<body>
+
+  <!-- navbar -->
+  <header>
+    <nav class="nav-wrapper transparent">
+        <div class="container">
+            <a href="" class="brand-logo">Antar Martin</a>
+            <a href="" class="sidenav-trigger" data-target="mobile-menu">
+            <i class="material-icons">menu</i>
+            </a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="#photos">My Resume</a></li>
+                <li><a href="#services">Things I Do</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="http://www.instagram.com/antar_does_arts" class="tooltipped btn-floating btn-small indigo darken-4" data-tooltip="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a></li>
+                <li><a href="https://www.facebook.com/antar.martin" class="tooltipped btn-floating btn-small indigo darken-4" data-tooltip="Facebook">
+                    <i class="fab fa-facebook"></i>
+                </a></li>
+                <li><a href="https://www.youtube.com/channel/UCeTtoO2b4EriI8UvtZDh1ug" class="tooltipped btn-floating btn-small indigo darken-4" data-tooltip="YouTube">
+                    <i class="fab fa-youtube"></i>
+                </a></li>
+                <li><a href="https://www.linkedin.com/in/antar-martin-a00a024b/" class="tooltipped btn-floating btn-small indigo darken-4" data-tooltip="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a></li>
+            </ul>
+            <ul class="sidenav grey lighten-2" id="mobile-menu">
+                <li><a href="#photos">My Resume</a></li>
+                <li><a href="#services">Things I Do</a></li>
+                <li><a href="#contact">Contacts</a></li>
+                <li><a href="http://www.instagram.com/antar_does_arts">Instagram</a></li>
+                <li><a href="https://www.facebook.com/antar.martin">Facebook</a></li>
+                <li><a href="https://www.youtube.com/channel/UCeTtoO2b4EriI8UvtZDh1ug">YouTube</a></li>
+                <li><a href="https://www.linkedin.com/in/antar-martin-a00a024b/"></a></li>
+            </ul>   
+        </div>
+    </nav>
+  </header>
+
+  <!-- photo / grid -->
+  <section class="container section scrollspy" id="photos">
+      <div class="row">
+          <div class="col s12 l4">
+              <img src="images/project_resume.jpg" alt="" class="responsive-img materialboxed">
+          </div>
+          <div class="col s12 l6 offset-l1">
+              <h2 class="indigo-text text-darken-4">My Resume</h2>
+              <p>Here is my most recent resume.</p>
+          </div>
+      </div>
+  </section>
+
+   <!-- parallax -->
+   <div class="parallax-container">
+    <div class="parallax">
+        <img src="/images/html.jpg" alt="" class="responsive-img">
+    </div>
+</div>
+
+<div class="container">
+    <h2 class="indigo-text text-darken-4">Recent Projects</h2>
+    <div class="row">
+      <div class="col s12 l6">
+        <div class="card">
+          <div class="card-image">
+            <img src="/images/stock_finder2.png" alt="">
+            <a href="" class="halfway-fab btn-floating pink pulse">
+              <i class="material-icons">favorite</i>
+            </a>
+          </div>
+          <div class="card-content">
+            <span class="card-title">Group Project 1</span>
+            <p>This is the first of three group projects for this bootcamp.</p>
+          </div>
+          <div class="card-action">
+            <a href="https://mitchellm27.github.io/Stock-Finder-Application/">View Deployment</a>
+            <a href="https://github.com/MitchellM27/Stock-Finder-Application">View Repository</a>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 l6">
+        <div class="card">
+          <div class="card-image">
+            <img src="/images/quiz_gen.png" alt="">
+            <a href="" class="halfway-fab btn-floating pink pulse">
+              <i class="material-icons">favorite</i>
+            </a>
+          </div>
+          <div class="card-content">
+            <span class="card-title">Quiz Generator</span>
+            <p>This is a quiz generator assignment.</p>
+          </div>
+          <div class="card-action">
+            <a href="https://antarmartin.github.io/quiz-maker/">View Deployment</a>
+            <a href="https://github.com/antarmartin/quiz-maker">View Repository</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+        <div class="col s12 l6">
+          <div class="card">
+            <div class="card-image">
+              <img src="/images/passcode_gen.png" alt="">
+              <a href="" class="halfway-fab btn-floating pink pulse">
+                <i class="material-icons">favorite</i>
+              </a>
+            </div>
+            <div class="card-content">
+              <span class="card-title">Password Generator</span>
+              <p>This assignment is a password generator.</p>
+            </div>
+            <div class="card-action">
+              <a href="https://antarmartin.github.io/password-generator2/">View Deployment</a>
+              <a href="https://github.com/antarmartin/password-generator2">View Repository</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 l6">
+          <div class="card">
+            <div class="card-image">
+              <img src="/images/refactor.png" alt="">
+              <a href="" class="halfway-fab btn-floating pink pulse">
+                <i class="material-icons">favorite</i>
+              </a>
+            </div>
+            <div class="card-content">
+              <span class="card-title">Refactoring</span>
+              <p>This assignment is a refactoring assignment for accessibility.</p>
+            </div>
+            <div class="card-action">
+              <a href="https://antarmartin.github.io/code-refactoring/">View Deployment</a>
+              <a href="https://github.com/antarmartin/code-refactoring">View Repository</a>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  
+
+  <!-- parallax -->
+  <div class="parallax-container">
+      <div class="parallax">
+          <img src="/images/haleiwa_tree.jpg" alt="" class="responsive-img">
+      </div>
+  </div>
+  
+
+  <!-- services / tabs -->
+  <section class="container section scrollspy" id="services">
+    <div class="row">
+        <div class="col s12 l4">
+            <h2 class="indigo-text text-darken-4">Things I Do</h2>
+            <p>Here are some interests that I involve myself with on a professional and community level.</p>
+            <p>Whenever I have free time, I like to play notes, and give people notes to make some part of their lives better.</p>
+        </div>
+        <div class="col s12 l6 offset-l2">
+            <ul class="tabs">
+                <li class="tab col s6">
+                    <a href="#music" class="indigo-text text-darken-4">Music</a>
+                </li>
+                <li class="tab col s6">
+                    <a href="#free-advice" class="indigo-text text-darken-4">Free Advice</a>
+                </li>
+            </ul>
+            <div class="col s12" id="music">
+                <p class="flow-text indigo-text text-darken-4">MUSIC</p>
+                <p>As you can tell by some of the pictures, I am a bassist. One that is available for gigs.</p>
+                <p>Feel free to contact me if you are ever in need of bass or synth work.</p>
+            </div>
+            <div class="col s12" id="free-advice">
+                <p class="flow-text indigo-text text-darken-4">FREE ADVICE</p>
+                <p>During these crazy times, we all need someone to reassure us that we are doing the right thing.</p>
+                <p>My part of paying it forward is offering free advice. Feel free to drop a line, and I'll help out the best that I can.</p>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <!-- parallax -->
+  <div class="parallax-container">
+    <div class="parallax">
+      <img src="/images/selfie_sharp.jpg" alt="" class="responsive-img">
+    </div>
+  </div>
+
+  <!-- contact form -->
+  <section class="section container scrollspy" id="contact">
+      <div class="row">
+          <div class="col s12 l5">
+              <h2 class="indigo-text text-darken-4">Get In Touch</h2>
+              <p>You can feel free to contact me here on this webpage, or directly with the information found on my resume.</p>
+              <p>I don't claim to be a 24/7 operation, but there are times when I'm awake during odd hours. </p>
+              <p>I will do my best to respond in a timely manner. </p>
+              <p>There is nothing too big or too small for me to help with, just ask and I will do my best!</p>
+          </div>
+          <div class="col s12 l5 offset-l2">
+              <form action="">
+                  <div class="input-field">
+                      <i class="material-icons prefix">email</i>
+                      <input type="email" id="email">
+                      <label for="email">Your Email</label>
+                  </div>
+                  <div class="input-field">
+                      <i class="material-icons prefix">message</i>
+                      <textarea id="message" class="materialize-textarea"></textarea>
+                      <label for="message">Your Message</label>                     
+                  </div>
+                  <div class="input-field">
+                      <input type="text" id="date" class="datepicker">
+                      <label for="date">Choose a date you need me for</label>
+                  </div>
+                  <div class="input-field">
+                      <p>Services Required...</p>
+                      <p>
+                          <label>
+                              <input type="checkbox">
+                              <span>Music</span>
+                          </label>
+                      </p>
+                      <p>
+                        <label>
+                            <input type="checkbox">
+                            <span>Free Advice</span>
+                        </label>
+                    </p>
+                  </div>
+                  <div class="input-field center">
+                      <button class="btn">Submit</button>
+                  </div>
+              </form>
+          </div>
+      </div>
+  </section>
+
+  <!-- footer -->
+  <footer class="page-footer grey darken-3">
+      <div class="container">
+          <div class="row">
+              <div class="col s12 l6">
+                  <h5>About Me</h5>
+                  <p>I am a bass player born and raised in Ohio.</p>
+                  <p>After 8 years as a musician in the Navy, I decided to drop anchor in California.</p>
+                  <p>I'm not sure where I will be going with my life from here, but hopefully it will lead to a fun adventure.</p>
+              </div>
+              <div class="col s12 l4 offset-l2">
+                  <h5>Connect</h5>
+                  <ul>
+                      <li><a href="https://www.facebook.com/antar.martin" class="grey-text text-lighten-3">Facebook</a></li>
+                      <li><a href="http://www.instagram.com/antar_does_arts" class="grey-text text-lighten-3">Instagram</a></li>
+                      <li><a href="https://www.youtube.com/channel/UCeTtoO2b4EriI8UvtZDh1ug" class="grey-text text-lighten-3">YouTube</a></li>
+                      <li><a href="https://github.com/antarmartin" class="grey-text text-lighten-3">GitHub</a></li>
+                      <li><a href="https://www.linkedin.com/in/antar-martin-a00a024b/" class="grey-text text-lighten-3">LinkedIn</a></li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+      <div class="footer-copyright grey darken-4">
+          <div class="container center-align">&copy; 2022 | Antar Martin</div>
+      </div>
+  </footer>
+
+  <!-- Compiled and minified JavaScript -->
+    
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            
+            $('.sidenav').sidenav();
+            $('.materialboxed').materialbox();
+            $('.parallax').parallax();
+            $('.tabs').tabs();
+            $('.datepicker').datepicker({
+                disableWeekends: true
+          });
+            $('.tooltipped').tooltip();
+            $('.scrollspy').scrollSpy();
+        });
+    </script>
+</body>
+</html>
